@@ -1,0 +1,107 @@
+/* Основной контейнер */
+.main-container {
+    width: 1920px;
+    height: 1080px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Контейнер формы */
+  .form-container {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background: white;
+    box-shadow: 44px 28px 176px 45px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Шапка с брендом */
+  .header {
+    width: 1920px;
+    padding: 16px 61px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .brand {
+    color: #2947A9;
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  /* Метка поля ввода */
+  .input-label {
+    width: 247px;
+    height: 50px;
+    color: #2947A9;
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+  
+  /* Контейнер для инпута */
+  .input-container {
+    width: 348px;
+    height: 96px;
+    padding: 12px 16px;
+    background: white;
+    border-radius: 9999px;
+    border: 5px #9AADF2 solid;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Поле ввода (пустое) */
+  .input-flex {
+    flex: 1;
+  }
+  
+  /* Иконка в инпуте */
+  .icon-wrapper {
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 8px;
+    height: 8px;
+    border: 1.6px #1E1E1E solid;
+  }
+  
+  /* Кнопка регистрации */
+  .register-button {
+    width: 348px;
+    height: 124px;
+    padding: 16px 20px;
+    background: #9AADF2;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-text {
+    color: white;
+    font-size: 26px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+  }
+  
