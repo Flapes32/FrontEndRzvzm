@@ -1,32 +1,52 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Razzvozzim Login</title>
-    <link rel="stylesheet" href="login.css">
-</head>
+<div class="main-container">
+    <div class="form-container">
+        <div class="header">
+            <div class="brand">RAZZVOZZIM</div>
+        </div>
 
-<body>
-    <div class="container">
-        <div class="main-box">
-            <div class="header">
-                <div class="logo">RAZZVOZZIM</div>
-            </div>
-            <div class="title">Логин</div>
-            <div class="input-box">
-                <div class="input-field"></div>
+        <!-- Логин -->
+        <div class="input-label">Логин</div>
+        <div class="input-container">
+            <input type="text" id="login" class="input-flex" placeholder="Введите логин">
+            <div class="icon-wrapper">
                 <div class="icon"></div>
-            </div>
-            <div class="title">Пароль</div>
-            <div class="input-box">
-                <div class="input-field"></div>
-                <div class="icon"></div>
-            </div>
-            <div class="login-button">
-                <div class="login-text">ВОЙТИ</div>
             </div>
         </div>
+        <div class="error-message" id="login-error"></div>
+
+        <!-- Пароль -->
+        <div class="input-label">Пароль</div>
+        <div class="input-container">
+            <input type="password" id="password" class="input-flex" placeholder="Введите пароль">
+            <div class="icon-wrapper">
+                <div class="icon"></div>
+            </div>
+        </div>
+        <div class="error-message" id="password-error"></div>
+
+        <!-- E-Mail -->
+        <div class="input-label">E-Mail</div>
+        <div class="input-container">
+            <input type="email" id="email" class="input-flex" placeholder="Введите E-Mail">
+            <div class="icon-wrapper">
+                <div class="icon"></div>
+            </div>
+        </div>
+        <div class="error-message" id="email-error"></div>
+
+        <!-- Номер телефона -->
+        <div class="input-label">Номер телефона</div>
+        <div class="input-container">
+            <input type="tel" id="phone" class="input-flex" placeholder="Введите номер телефона">
+            <div class="icon-wrapper">
+                <div class="icon"></div>
+            </div>
+        </div>
+        <div class="error-message" id="phone-error"></div>
+
+        <!-- Кнопка регистрации -->
+        <div class="register-button" onclick="validateForm()">
+            <div class="button-text">ЗАРЕГИСТРИРОВАТЬСЯ</div>
+        </div>
     </div>
-</body>
-</html>
+</div>
