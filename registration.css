@@ -1,0 +1,105 @@
+/* Основная обертка */
+.main-container {
+  width: 1920px;
+  height: 1080px;
+  background: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Внутренняя обертка */
+.inner-container {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  background: white;
+  box-shadow: 44.64px 28.57px 176.79px 45.54px rgba(0, 0, 0, 0.20);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Логотип */
+.logo-container {
+  width: 1920px;
+  padding: 16px 1717px 16.54px 61px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-text {
+  color: #2947A9;
+  font-size: 21.95px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* Заголовок */
+.header-text {
+  width: 247px;
+  height: 50px;
+  color: #2947A9;
+  font-size: 45px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+/* Поле ввода */
+.input-container {
+  width: 348px;
+  height: 96px;
+  padding: 12px 16px;
+  background: white;
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 5px solid #9AADF2;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-icon-container {
+  width: 16px;
+  height: 16px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-icon {
+  width: 8px;
+  height: 8px;
+  border: 1.6px solid #1E1E1E;
+}
+
+/* Кнопка регистрации */
+.register-button-container {
+  width: 348px;
+  height: 124px;
+  padding: 16px 20px;
+  background: #9AADF2;
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.register-button-text {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  word-wrap: break-word;
+}
